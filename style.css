@@ -17,6 +17,7 @@ body{
 }
 #nav-container span{
     font-size: 25px;
+    font-weight: bolder;
 }
 .color{
     color: blueviolet;
@@ -162,4 +163,45 @@ h4{
     color: rgb(245, 237, 237);
     text-align: center;
     font-size: small;
+}
+.response{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+    margin-left: 150px;
+    margin-bottom: 100px;
+}
+.container{
+    max-width: 850px;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+h2{
+    position: relative;
+    padding-bottom: 10px;
+    margin-bottom: 10px;
+}
+.field{
+    width: 100%;
+    outline: none;
+    padding: 0.5rem 1rem;
+    border: 2px solid black;
+    background-color: rgb(221, 206, 206);
+    font-size: 1.1rem;
+    margin-bottom: 22px;
+    transition: 0.3s;
+}
+.button{
+    width: 90px;
+    padding: 0.5rem 1rem;
+    font-size: 1.1rem;
+    background-color: rgb(183, 190, 202);
+    cursor: pointer;
+    border-radius: 5px;
 }
