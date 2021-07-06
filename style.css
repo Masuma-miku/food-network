@@ -21,6 +21,27 @@ body{
 .color{
     color: blueviolet;
 }
+.front-page{
+    background-image: url(images/bg-1.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 700px;
+    margin: 0%;
+    display: flex;
+}
+.front-page h1{
+    font-size: 35px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-style: italic;
+    text-align: center;
+    background-color: transparent;
+    border: 2px solid black;
+    margin-left: 200px;
+    margin-top: 270px;
+    padding: 10px;
+    box-shadow: 0px 0px 20px gray;
+}
 .first-section h1{
     font-size: 50px;
 }
